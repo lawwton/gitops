@@ -7,7 +7,7 @@ spec:
   - clusters: {} # Automatically use all clusters defined within Argo CD
   template:
     metadata:
-      name: '{{name}}-guestbook' # 'name' field of the Secret
+      name: '{{name}}-cluster-configs' # 'name' field of the Secret
     spec:
       project: "default"
       source:
